@@ -199,8 +199,8 @@ show <class> <id>
 ```
 
 ```bash
-(hbnb) show BaseModel 6cfb47c4-a434-4da7-ac03-2122624c3762
-[BaseModel] (a) [BaseModel] (6cfb47c4-a434-4da7-ac03-2122624c3762) {'id': '6cfb47c4-a434-4da7-ac03-2122624c3762', 'created_at': datetime.datetime(2021, 11, 14, 3, 28, 45, 571360), 'updated_at': datetime.datetime(2021, 11, 14, 3, 28, 45, 571389)}
+(hbnb) show BaseModel 408e9cb4-b9ea-4c73-bf63-268f864b7258
+[BaseModel] (a) [BaseModel] (408e9cb4-b9ea-4c73-bf63-268f864b7258) {'id': '408e9cb4-b9ea-4c73-bf63-268f864b7258', 'created_at': datetime.datetime(2021, 11, 14, 3, 28, 45, 571360), 'updated_at': datetime.datetime(2021, 11, 14, 3, 28, 45, 571389)}
 (hbnb)
 ```
 
@@ -211,9 +211,9 @@ show <class> <id>
 
 ```bash
 (hbnb) create User
-0c98d2b8-7ffa-42b7-8009-d9d54b69a472
-(hbnb) destroy User 0c98d2b8-7ffa-42b7-8009-d9d54b69a472
-(hbnb) show User 0c98d2b8-7ffa-42b7-8009-d9d54b69a472
+665cebd6-57bb-48e2-b4d6-a9c57d86fe10
+(hbnb) destroy User 665cebd6-57bb-48e2-b4d6-a9c57d86fe10
+(hbnb) show User 665cebd6-57bb-48e2-b4d6-a9c57d86fe10
 ** no instance found **
 (hbnb)
 ```
@@ -225,9 +225,9 @@ show <class> <id>
 
 ```bash
 (hbnb) create BaseModel
-e45ddda9-eb80-4858-99a9-226d4f08a629
-(hbnb) all BaseModel
-["[BaseModel] (4c8f7ebc-257f-4ed1-b26b-e7aace459897) [BaseModel] (4c8f7ebc-257f-4ed1-b26b-e7aace459897) {'id': '4c8f7ebc-257f-4ed1-b26b-e7aace459897', 'created_at': datetime.datetime(2021, 11, 13, 22, 19, 19, 447155), 'updated_at': datetime.datetime(2021, 11, 13, 22, 19, 19, 447257), 'name': 'My First Model', 'my_number': 89}"]
+e835e00c-7ccf-4815-9aad-1614e90d7374
+(hbnb) all BaseModel 
+["[BaseModel] (e835e00c-7ccf-4815-9aad-1614e90d7374) {'id': 'e835e00c-7ccf-4815-9aad-1614e90d7374', 'created_at': datetime.datetime(2023, 3, 23, 17, 10, 40, 448190), 'updated_at': datetime.datetime(2023, 3, 23, 17, 10, 40, 448190)}"]
 ["[BaseMode
 ```
 
@@ -237,7 +237,7 @@ e45ddda9-eb80-4858-99a9-226d4f08a629
 
 ```bash
 (hbnb) create City
-4e01c33e-2564-42c2-b61c-17e512898bad
+54ae86d9-3731-4bd7-a4c5-bdd8d9eb1f2a
 (hbnb) create City
 e952b772-80a5-41e9-b728-6bc4dc5c21b4
 (hbnb) count City
@@ -253,9 +253,9 @@ e952b772-80a5-41e9-b728-6bc4dc5c21b4
 ```bash
 (hbnb) create User
 1afa163d-486e-467a-8d38-3040afeaa1a1
-(hbnb) update User 1afa163d-486e-467a-8d38-3040afeaa1a1 email "mikiyasayele6@gmail.com"
-(hbnb) show User 1afa163d-486e-467a-8d38-3040afeaa1a1
-[User] (s) [User] (1afa163d-486e-467a-8d38-3040afeaa1a1) {'id': '1afa163d-486e-467a-8d38-3040afeaa1a1', 'created_at': datetime.datetime(2021, 11, 14, 23, 42, 10, 502157), 'updated_at': datetime.datetime(2021, 11, 14, 23, 42, 10, 502186), 'email': 'mikiyasayele6@gmail.com'}
+(hbnb) update User c4e8cc46-2cea-4432-b0e0-085ffe08bf68 email "mikiyasayele6@gmail.com"
+(hbnb) show User c4e8cc46-2cea-4432-b0e0-085ffe08bf68
+[User] (s) [User] (c4e8cc46-2cea-4432-b0e0-085ffe08bf68) {'id': 'c4e8cc46-2cea-4432-b0e0-085ffe08bf68', 'created_at': datetime.datetime(2023, 3, 23, 18, 54, 37, 628715), 'updated_at': datetime.datetime(2023, 3, 23, 18, 54, 37, 628715), 'email': 'mikiyasayele6@gmail.com'}
 (hbnb)
 
 ```
